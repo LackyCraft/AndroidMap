@@ -3,12 +3,14 @@ package com.example.schedulebus;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.example.schedulebus.databinding.ActivityMapsBinding;
 
@@ -24,6 +26,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     private ActivityMapsBinding binding;
+
     private Connection connect;
 
     @Override
@@ -71,16 +74,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 ResultSet res = connect.createStatement().executeQuery(query);
 
                 while (res.next()) {
-                    double latitude = Double.parseDouble(res.getString("lat"));
-                    double longitude = Double.parseDouble(res.getString("long"));
-                    LatLng location = new LatLng(latitude, longitude);
-                    mMap.addMarker(new MarkerOptions().position(location).title(res.getString("title")));
-
+                    LatLng location = new LatLng(res.getFloat("lat"), res.getFloat("long"));
+                    Marker marker  = mMap.addMarker(new MarkerOptions().position(location).title(res.getString("title")));
+                    marker.setTag(res.getInt("id"));
                 }
             }
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
 
+        // adding on click listener to marker of google maps.
+        mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+            @Override
+            public boolean onMarkerClick(Marker marker) {
+                // on marker click we are getting the title of our marker
+                // which is clicked and displaying it in a toast message.
+                String markerName = marker.getTitle() + " " + marker.getTag();
+                Toast.makeText(MapsActivity.this, "Clicked location is " + markerName, Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
     }
+
 }
