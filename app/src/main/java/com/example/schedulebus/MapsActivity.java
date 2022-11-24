@@ -71,17 +71,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 ResultSet res = connect.createStatement().executeQuery(query);
 
                 while (res.next()) {
-                    //Map<String, String> dtname = new HashMap<String, String>();
-                    //dtname.put("id", res.getString(1));
-                    //dtname.put("firstname", res.getString(2));
-                    //dtname.put("fullname",res.getString(3));
-                    //data.add(dtname);
                     double latitude = Double.parseDouble(res.getString("lat"));
                     double longitude = Double.parseDouble(res.getString("long"));
                     LatLng location = new LatLng(latitude, longitude);
                     mMap.addMarker(new MarkerOptions().position(location).title(res.getString("title")));
-
-
 
                 }
             }
