@@ -1,3 +1,5 @@
 # Видео
 Нажми на картинку
-[![Watch the video](https://user-images.githubusercontent.com/20025263/204033871-e698a640-ce73-4a00-bba1-b44dc62fabbb.png)](https://drive.google.com/file/d/1G3uj-NTc8urdzbAEENS6YulBaRwF5QZA/view)
+
+
+[<img src="https://user-images.githubusercontent.com/20025263/204033871-e698a640-ce73-4a00-bba1-b44dc62fabbb.png" width="50%">](https://rr1---sn-4g5lznek.c.drive.google.com/videoplayback?expire=1669411646&ei=_vqAY4WFKI708gTovbPgDg&ip=45.129.141.103&cp=QVRLQUVfUFZSR1hPOkwyOGVmZDVOTDlhSkpUaHVsdFlBSGdtYVloeTJ0ZG56MVpKaUJpQkxqS0Y&id=729e47d1c64c3d00&itag=22&source=webdrive&requiressl=yes&ttl=transient&susc=dr&driveid=1G3uj-NTc8urdzbAEENS6YulBaRwF5QZA&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=49.853&lmt=1669397178119083&subapp=DRIVE_WEB_FILE_VIEWER&txp=0016224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgHLeqdBCvQh6q1A2b0dJWcs26kfEcc4KtxXTkLi5ZKhoCIHdg8HwDIgPnv9NkH4yBLxjj70SHhiSbf5pSUePRF_kt&cpn=Rs_iep01p1ijq1UO&c=WEB_EMBEDDED_PLAYER&cver=1.20221120.00.00.mp4&redirect_counter=1&cm2rm=sn-f5fez7s&req_id=5f1823ddd46aa3ee&cms_redirect=yes&cmsv=e&mh=Z5&mm=34&mn=sn-4g5lznek&ms=ltu&mt=1669397116&mv=m&mvi=1&pl=24&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAPiTMYScodzIcTmaBXwnoS43h4C37jCdprm0LqeRPpaRAiEAw5Z8_LX_sqxHb6Crpr8PTameMX_MWbai8zaMPPen7Bc%3D "Now in Android: 55")
