@@ -15,12 +15,9 @@
 # Скриншоты
 
 ## Карта
-![image](https://user-images.githubusercontent.com/20025263/204034515-35b4edd6-bb3d-448e-bccf-5e1aba00a61a.png)
-![image](https://user-images.githubusercontent.com/20025263/204035345-aafc17cf-910f-42e1-99db-ee67fb4448a0.png)
-
+<img src = "https://user-images.githubusercontent.com/20025263/204034515-35b4edd6-bb3d-448e-bccf-5e1aba00a61a.png" height = "400" /> <img src = "https://user-images.githubusercontent.com/20025263/204035345-aafc17cf-910f-42e1-99db-ee67fb4448a0.png" width = "400" />
 ## Карточка остановки
-![image](https://user-images.githubusercontent.com/20025263/204034600-103224bb-07a0-4a17-b5d3-979b67f2d0ce.png)
-![image](https://user-images.githubusercontent.com/20025263/204035406-fac68b47-5699-4d79-886a-9550bf6f62e0.png)
+<img src = "https://user-images.githubusercontent.com/20025263/204034600-103224bb-07a0-4a17-b5d3-979b67f2d0ce.png" height = "400" /> <img src = "https://user-images.githubusercontent.com/20025263/204035406-fac68b47-5699-4d79-886a-9550bf6f62e0.png" width = "400" />
 
 
 
